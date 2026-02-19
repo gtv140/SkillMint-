@@ -127,8 +127,8 @@ b{color:#0d3b66;}
 </style>
 </head>
 <body>
-
-<h2>.Surah Al-Fatiha</h2>
+<div class="card">
+<h2>1. Surah Al-Fatiha</h2>
 <div class="arabic">
 بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ<br>
 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ<br>
