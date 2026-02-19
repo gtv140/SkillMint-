@@ -128,8 +128,7 @@ b{color:#0d3b66;}
 </head>
 <body>
 
-<div class="card">
-<h2>1. Surah Al-Fatiha</h2>
+Surah Al-Fatiha</h2>
 <div class="arabic">
 بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ<br>
 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ<br>
@@ -473,6 +472,3 @@ if(window.DeviceOrientationEvent){
     if(compass!==null) document.getElementById('qiblaDir').innerText = "Facing Mecca: "+Math.round(compass)+"°";
   });
 }
-</script>
-</body>
-</html>
