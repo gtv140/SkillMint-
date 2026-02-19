@@ -1,286 +1,376 @@
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ultimate Ramadan 2026 Guide</title>
-<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
-<style>
-:root {
-  --primary:#0d3b66;
-  --secondary:#ffd166;
-  --bg-light:#fffaf0;
-  --bg-dark:#1e1e1e;
-  --text-light:#333;
-  --text-dark:#eee;
-}
-body{margin:0;font-family:Arial,sans-serif;scroll-behavior:smooth;transition:all 0.3s;}
-nav{position:fixed;top:0;width:100%;background:var(--primary);padding:12px;text-align:center;z-index:1000;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
-nav a{color:white;margin:8px;text-decoration:none;font-weight:bold;font-size:14px;}
-nav a:hover{color:var(--secondary);}
-section{padding:90px 20px;transition:all 0.3s;}
-.card{background:white;padding:20px;margin:20px auto;max-width:1000px;border-radius:15px;box-shadow:0 8px 25px rgba(0,0,0,0.15);transition:all 0.3s;}
-h2{color:var(--primary);text-align:center;}
-.arabic{font-family:'Amiri',serif;font-size:24px;direction:rtl;text-align:right;margin-bottom:10px;color:#2b2b2b;transition:all 0.3s;}
-.translation{margin-top:10px;font-size:16px;color:#444;transition:all 0.3s;}
-table{width:100%;border-collapse:collapse;margin-top:10px}
-th,td{border:1px solid #ddd;padding:8px;text-align:center}
-th{background:var(--primary);color:white}
-select,input,button{padding:8px;margin-top:10px;border-radius:6px;font-size:14px;transition:all 0.3s;}
-button{background:var(--primary);color:white;border:none;cursor:pointer;font-weight:bold;}
-button:hover{background:var(--secondary);color:var(--primary);}
-ul{margin:10px 0;padding-left:20px;}
-input[type="number"]{width:80px;}
-.gradient-card{background:linear-gradient(135deg,#ffd166,#06d6a0);color:white;transition:all 0.3s;}
-/* Dark mode styles */
-body.dark{background:var(--bg-dark);color:var(--text-dark);}
-body.dark .card{background:#2c2c2c;color:var(--text-dark);}
-body.dark .arabic{color:#fff;}
-body.dark .translation{color:#ccc;}
-body.dark nav{background:#0b2c4d;}
-body.dark table th{background:#0b2c4d;}
-</style>
-</head>
-<body class="light">
-
-<nav>
-<a href="#surah">Surahs</a>
-<a href="#dua">Duas</a>
-<a href="#roza">Roza</a>
-<a href="#namaz">Namaz</a>
-<a href="#calendar">Calendar</a>
-<a href="#taraweeh">Taraweeh</a>
-<a href="#zakat">Zakat</a>
-<a href="#tasbeeh">Tasbeeh</a>
-<a href="#qibla">Qibla</a>
-<a href="#recipes">Recipes</a>
-<a href="#goals">Goals</a>
-<a href="#quotes">Quotes</a>
-<a href="#checklist">Checklist</a>
-<select id="langToggle">
-  <option value="en">English</option>
-  <option value="ur">Urdu</option>
-</select>
-<button id="modeToggle">Dark/Light</button>
-</nav>
-
-<!-- 1. Surahs -->
-<section id="surah" class="card gradient-card">
-<h2 data-en="10 Surahs with Full Translation" data-ur="10 سورۃ ترجمہ کے ساتھ">10 Surahs with Full Translation</h2>
-
-<!-- Surah 1: Al-Fatiha -->
-<p><b data-en="1. Surah Al-Fatiha" data-ur="1. سورۃ الفاتحہ">1. Surah Al-Fatiha</b></p>
-<div class="arabic">
-بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ<br>
-الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ<br>
-الرَّحْمَنِ الرَّحِيمِ<br>
-مَالِكِ يَوْمِ الدِّينِ<br>
-إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ<br>
-اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ<br>
-صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Ultimate Ramadan 2026 Guide</title>  
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">  
+<style>  
+:root{  
+  --bg-light:#fffaf0;  
+  --bg-dark:#121212;  
+  --text-light:#333;  
+  --text-dark:#eee;  
+  --card-bg-light:#fff;  
+  --card-bg-dark:#1e1e1e;  
+  --primary:#0d3b66;  
+  --accent:#ffd166;  
+}  
+body{  
+  margin:0;  
+  font-family:Arial,sans-serif;  
+  background:var(--bg-light);  
+  color:var(--text-light);  
+  scroll-behavior:smooth;  
+  transition:0.3s;  
+}  
+nav{  
+  position:fixed;  
+  top:0;  
+  width:100%;  
+  background:var(--primary);  
+  padding:12px;  
+  text-align:center;  
+  z-index:1000;  
+  box-shadow:0 4px 6px rgba(0,0,0,0.1);  
+}  
+nav a{  
+  color:white;  
+  margin:8px;  
+  text-decoration:none;  
+  font-weight:bold;  
+  font-size:14px;  
+}  
+nav a:hover{color:var(--accent);}  
+section{  
+  padding:90px 20px;  
+  transition:0.3s;  
+}  
+.card{  
+  background:var(--card-bg-light);  
+  padding:20px;  
+  margin:20px auto;  
+  max-width:1000px;  
+  border-radius:15px;  
+  box-shadow:0 8px 25px rgba(0,0,0,0.15);  
+  transition:0.3s;  
+}  
+h2{  
+  color:var(--primary);  
+  text-align:center;  
+}  
+.arabic{  
+  font-family:'Amiri',serif;  
+  font-size:24px;  
+  direction:rtl;  
+  text-align:right;  
+  margin-bottom:10px;  
+  color:var(--text-light);  
+}  
+.translation{  
+  margin-top:10px;  
+  font-size:16px;  
+  color:var(--text-light);  
+}  
+table{width:100%;border-collapse:collapse;margin-top:10px;}  
+th,td{border:1px solid #ddd;padding:8px;text-align:center;}  
+th{background:var(--primary);color:white;}  
+select,input,button{padding:8px;margin-top:10px;border-radius:6px;font-size:14px;}  
+button{background:var(--primary);color:white;border:none;cursor:pointer;font-weight:bold;}  
+button:hover{background:var(--accent);color:var(--primary);}  
+ul{margin:10px 0;padding-left:20px;}  
+input[type="number"]{width:80px;}  
+.gradient-card{background:linear-gradient(135deg,#ffd166,#06d6a0);color:white;}  
+.dark-mode{  
+  background:var(--bg-dark);  
+  color:var(--text-dark);  
+}  
+.dark-mode .card{  
+  background:var(--card-bg-dark);  
+  color:var(--text-dark);  
+}  
+.dark-mode .arabic{color:#ffd166;}  
+.dark-mode .translation{color:#eee;}  
+#futures{position:fixed;bottom:10px;right:10px;z-index:1001;}  
+#futures button{margin:2px;padding:6px 10px;font-size:12px;border-radius:6px;}  
+</style>  
+</head>  
+<body>  <nav>  
+<a href="#surah" data-en="Surahs" data-ur="سورۃ">Surahs</a>  
+<a href="#dua" data-en="Duas" data-ur="دعائیں">Duas</a>  
+<a href="#roza" data-en="Roza" data-ur="روزہ">Roza</a>  
+<a href="#namaz" data-en="Namaz" data-ur="نماز">Namaz</a>  
+<a href="#calendar" data-en="Calendar" data-ur="کیلنڈر">Calendar</a>  
+<a href="#taraweeh" data-en="Taraweeh" data-ur="ترواہی">Taraweeh</a>  
+<a href="#zakat" data-en="Zakat" data-ur="زکوة">Zakat</a>  
+<a href="#tasbeeh" data-en="Tasbeeh" data-ur="تسبیح">Tasbeeh</a>  
+<a href="#qibla" data-en="Qibla" data-ur="قبلہ">Qibla</a>  
+<a href="#recipes" data-en="Recipes" data-ur="پکوان">Recipes</a>  
+<a href="#goals" data-en="Goals" data-ur="مقاصد">Goals</a>  
+<a href="#quotes" data-en="Quotes" data-ur="اقتباسات">Quotes</a>  
+<a href="#checklist" data-en="Checklist" data-ur="چیک لسٹ">Checklist</a>  
+</nav>  <div id="futures">  
+<button onclick="toggleDark()" data-en="Dark/Light" data-ur="ڈارک/لائٹ">Dark/Light</button>  
+<button onclick="toggleLang()" data-en="EN/UR" data-ur="انگریزی/اردو">EN/UR</button>  
+</div>  <!-- SURAH -->  <section id="surah" class="card gradient-card">  
+<h2 data-en="10 Surahs with Translation" data-ur="10 سورۃ ترجمے کے ساتھ">10 Surahs with Translation</h2>  <!-- Surah 1: Al-Fatiha -->  <p><b data-en="1. Surah Al-Fatiha" data-ur="1. سورۃ الفاتحہ">1. Surah Al-Fatiha</b></p>  
+<div class="arabic">  
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ<br>  
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ<br>  
+الرَّحْمَنِ الرَّحِيمِ<br>  
+مَالِكِ يَوْمِ الدِّينِ<br>  
+إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ<br>  
+اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ<br>  
+صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> اللہ کے نام سے جو نہایت رحم والا، مہربان ہے۔ تمام تعریفیں اللہ ہی کے لیے ہیں جو سارے جہانوں کا رب ہے۔ وہ نہایت رحم والا، مہربان ہے۔ روز جزا کا مالک۔ ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد چاہتے ہیں۔ ہمیں سیدھا راستہ دکھا۔ ان لوگوں کا راستہ جن پر تو نے انعام فرمایا، نہ ان کا جن پر غضب ہوا اور نہ گمراہوں کا۔<br>  
+<b>English:</b> In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path. The path of those upon whom You have bestowed favor, not of those who have evoked Your anger, nor of the misguided.  
+</div>  <!-- Surah 2: Al-Ikhlas -->  <p><b data-en="2. Surah Al-Ikhlas" data-ur="2. سورۃ الاخلاص">2. Surah Al-Ikhlas</b></p>  
+<div class="arabic">  
+قُلْ هُوَ اللَّهُ أَحَدٌ<br>  
+اللَّهُ الصَّمَدُ<br>  
+لَمْ يَلِدْ وَلَمْ يُولَدْ<br>  
+وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> کہہ دو، اللہ ایک ہے۔ اللہ بے نیاز ہے۔ نہ اس کی کوئی اولاد ہے اور نہ وہ کسی سے پیدا ہوا ہے۔ اور نہ اس کا کوئی ہمسر ہے۔<br>  
+<b>English:</b> Say, He is Allah, [who is] One. Allah, the Eternal Refuge. He neither begets nor is born. Nor is there to Him any equivalent.  
+</div>  <!-- Surah 3: Al-Falaq -->  <p><b data-en="3. Surah Al-Falaq" data-ur="3. سورۃ الفلق">3. Surah Al-Falaq</b></p>  
+<div class="arabic">  
+قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ<br>  
+مِن شَرِّ مَا خَلَقَ<br>  
+وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ<br>  
+وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ<br>  
+وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> کہہ دو، میں پناہ لیتا ہوں صبح کے رب کی، ہر اس چیز کے شر سے جو اس نے پیدا کی، اور اندھیری رات کے شر سے جب وہ چھا جائے، اور گٹھوں میں پھونک مارنے والی عورتوں کے شر سے، اور حسد کرنے والے کے شر سے جب وہ حسد کرے۔<br>  
+<b>English:</b> Say, I seek refuge in the Lord of daybreak, from the evil of what He created, and from the evil of darkness when it settles, and from the evil of the blowers in knots, and from the evil of an envier when he envies.  
+</div>  <!-- Surah 4: An-Nas -->  <p><b data-en="4. Surah An-Nas" data-ur="4. سورۃ الناس">4. Surah An-Nas</b></p>  
+<div class="arabic">  
+قُلْ أَعُوذُ بِرَبِّ النَّاسِ<br>  
+مَلِكِ النَّاسِ<br>  
+إِلَٰهِ النَّاسِ<br>  
+مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ<br>  
+الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ<br>  
+مِنَ الْجِنَّةِ وَالنَّاسِ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> کہہ دو، میں پناہ لیتا ہوں لوگوں کے رب سے، لوگوں کے بادشاہ سے، لوگوں کے معبود سے، شیطانی وسوسوں کے شر سے جو دلوں میں گھس آئے، جو جن اور انسان میں سے وسوسہ ڈالتا ہے۔<br>  
+<b>English:</b> Say, I seek refuge in the Lord of mankind, the Sovereign of mankind, the God of mankind, from the evil of the whisperer who withdraws, who whispers in the breasts of mankind, among jinn and among men.  
+</div>  <!-- Surah 5: Al-Asr -->  <p><b data-en="5. Surah Al-Asr" data-ur="5. سورۃ العصر">5. Surah Al-Asr</b></p>  
+<div class="arabic">  
+وَالْعَصْرِ<br>  
+إِنَّ الْإِنسَانَ لَفِي خُسْرٍ<br>  
+إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> قسم ہے زمانے کی۔ بیشک انسان خسارے میں ہے، سوائے ان کے جو ایمان لائے، نیک عمل کیے، اور حق اور صبر کی تلقین کی۔<br>  
+<b>English:</b> By time, indeed, mankind is in loss, except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.  
+</div>  <!-- Surah 6: Al-Kawthar -->  <p><b data-en="6. Surah Al-Kawthar" data-ur="6. سورۃ کوثر">6. Surah Al-Kawthar</b></p>  
+<div class="arabic">  
+إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ<br>  
+فَصَلِّ لِرَبِّكَ وَانْحَرْ<br>  
+إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> بے شک ہم نے تمہیں کوثر دیا، پس اپنے رب کے لیے نماز پڑھو اور قربانی کرو۔ بے شک تمہارا دشمن ہی بے نسل ہے۔<br>  
+<b>English:</b> Indeed, We have granted you al-Kawthar. So pray to your Lord and sacrifice [to Him alone]. Indeed, your enemy is the one cut off.  
+</div>  <!-- Surah 7: Al-Ma'un -->  <p><b data-en="7. Surah Al-Ma'un" data-ur="7. سورۃ الماعون">7. Surah Al-Ma'un</b></p>  
+<div class="arabic">  
+أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ<br>  
+فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ<br>  
+وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ<br>  
+فَوَيْلٌ لِلْمُصَلِّينَ<br>  
+الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ<br>  
+الَّذِينَ هُمْ يُرَاءُونَ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> کیا تم نے اس شخص کو دیکھا جو دین کو جھٹلاتا ہے؟ یہی ہے جو یتیم کو دھکیلتا ہے اور مسکین کو کھانا دینے کی ترغیب نہیں دیتا۔ پس بدقسمتی ہے ان نمازیوں کے لیے جو اپنی نماز سے غافل ہیں اور ریاکاری کرتے ہیں۔<br>  
+<b>English:</b> Have you seen the one who denies the Recompense? For that is the one who drives away the orphan and does not encourage the feeding of the poor. So woe to those who pray, but are heedless of their prayer, who make show [of their deeds].  
+</div>  <!-- Surah 8: Al-Quraish -->  <p><b data-en="8. Surah Al-Quraish" data-ur="8. سورۃ قریش">8. Surah Al-Quraish</b></p>  
+<div class="arabic">  
+لِإِيلَافِ قُرَيْشٍ<br>  
+إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ<br>  
+فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ<br>  
+الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> قریش کی عادت کے لیے، سردیوں اور گرمیوں کی تجارت کے لیے، پس وہ اس گھر کے رب کی عبادت کریں، جس نے انہیں بھوک سے کھانا دیا اور خوف سے محفوظ رکھا۔<br>  
+<b>English:</b> For the accustomed security of the Quraysh, their accustomed journey in winter and summer. Let them worship the Lord of this House, who has fed them against hunger and made them safe from fear.  
+</div>  <!-- Surah 9: Al-Kafirun -->  <p><b data-en="9. Surah Al-Kafirun" data-ur="9. سورۃ الکافرون">9. Surah Al-Kafirun</b></p>  
+<div class="arabic">  
+قُلْ يَا أَيُّهَا الْكَافِرُونَ<br>  
+لَا أَعْبُدُ مَا تَعْبُدُونَ<br>  
+وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ<br>  
+وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ<br>  
+وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ<br>  
+لَكُمْ دِينُكُمْ وَلِيَ دِينِ  
+</div>  
+<div class="translation">  
+<b>Urdu:</b> کہہ دو، اے کافر! میں وہ نہیں پوجتا جو تم پوجتے ہو۔ اور نہ تم وہ پوجو گے جو میں پوجتا ہوں۔ تمہارا دین تمہارے لیے، اور میرا دین میرے لیے۔<br>  
+<b>English:</b> Say, O disbelievers, I do not worship what you worship. Nor are you worshippers of what I worship. Nor will I be a worshipper of what you worship. Nor will you be worshippers of what I worship. For you is your religion, and for me is my religion.  
+</div>  <!-- Surah 10: An-Nasr -->  <p><b data-en="10. Surah An-Nasr" data-ur="10. سورۃ النصر">10. Surah An-Nasr</b></p>  
+<div class="arabic">  
+إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ<br>  
+وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا<br>  
+فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغ فْرْ لَهُ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا
 </div>
-<div class="translation" data-en="<b>Urdu:</b> اللہ کے نام سے جو نہایت رحم والا، مہربان ہے۔ تمام تعریفیں اللہ ہی کے لیے ہیں جو سارے جہانوں کا رب ہے۔ وہ نہایت رحم والا، مہربان ہے۔ روز جزا کا مالک۔ ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد چاہتے ہیں۔ ہمیں سیدھا راستہ دکھا۔ ان لوگوں کا راستہ جن پر تو نے انعام فرمایا، نہ ان کا جن پر غضب ہوا اور نہ گمراہوں کا۔<br><b>English:</b> In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path. The path of those upon whom You have bestowed favor, not of those who have evoked Your anger, nor of the misguided." 
-data-ur="<b>اردو:</b> اللہ کے نام سے جو نہایت رحم والا، مہربان ہے۔ تمام تعریفیں اللہ ہی کے لیے ہیں جو سارے جہانوں کا رب ہے۔ وہ نہایت رحم والا، مہربان ہے۔ روز جزا کا مالک۔ ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد چاہتے ہیں۔ ہمیں سیدھا راستہ دکھا۔ ان لوگوں کا راستہ جن پر تو نے انعام فرمایا، نہ ان کا جن پر غضب ہوا اور نہ گمراہوں کا۔ <br><b>انگریزی:</b> In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path.">
+<div class="translation">
+<b>Urdu:</b> جب اللہ کی مدد اور فتح آ جائے، اور تم دیکھو لوگ اللہ کے دین میں گروہوں میں داخل ہو رہے ہیں، تو اپنے رب کے حمد کے ساتھ تسبیح کرو اور اس سے معافی مانگو۔ بے شک وہ بڑا توبہ قبول کرنے والا ہے۔<br>
+<b>English:</b> When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.
 </div>
 
-<!-- Surah 2: Al-Ikhlas -->
-<p><b data-en="2. Surah Al-Ikhlas" data-ur="2. سورۃ الاخلاص">2. Surah Al-Ikhlas</b></p>
-<div class="arabic">
-قُلْ هُوَ اللَّهُ أَحَدٌ<br>
-اللَّهُ الصَّمَدُ<br>
-لَمْ يَلِدْ وَلَمْ يُولَدْ<br>
-وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ
-</div>
-<div class="translation" data-en="<b>Urdu:</b> کہہ دو، اللہ ایک ہے۔ اللہ بے نیاز ہے۔ نہ اس کی کوئی اولاد ہے اور نہ وہ کسی سے پیدا ہوا ہے۔ اور نہ اس کا کوئی ہمسر ہے۔<br><b>English:</b> Say, He is Allah, [who is] One. Allah, the Eternal Refuge. He neither begets nor is born. Nor is there to Him any equivalent." 
-data-ur="<b>اردو:</b> کہہ دو، اللہ ایک ہے۔ اللہ بے نیاز ہے۔ نہ اس کی کوئی اولاد ہے اور نہ وہ کسی سے پیدا ہوا ہے۔ اور نہ اس کا کوئی ہمسر ہے۔<br><b>انگریزی:</b> Say, He is Allah, [who is] One. Allah, the Eternal Refuge. He neither begets nor is born. Nor is there to Him any equivalent.">
-</div>
+</section>
 
-<!-- Surah 3: Al-Falaq -->
-<p><b data-en="3. Surah Al-Falaq" data-ur="3. سورۃ الفلق">3. Surah Al-Falaq</b></p>
-<div class="arabic">
-قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ<br>
-مِن شَرِّ مَا خَلَقَ<br>
-وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ<br>
-وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ<br>
-وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ
-</div>
-<div class="translation" data-en="<b>Urdu:</b> کہہ دو، میں پناہ لیتا ہوں صبح کے رب کی، ہر اس چیز کے شر سے جو اس نے پیدا کی، اور اندھیری رات کے شر سے جب وہ چھا جائے، اور گٹھوں میں پھونک مارنے والی عورتوں کے شر سے، اور حسد کرنے والے کے شر سے جب وہ حسد کرے۔<br><b>English:</b> Say, I seek refuge in the Lord of daybreak, from the evil of what He created, and from the evil of darkness when it settles, and from the evil of the blowers in knots, and from the evil of an envier when he envies." 
-data-ur="<b>اردو:</b> کہہ دو، میں پناہ لیتا ہوں صبح کے رب کی، ہر اس چیز کے شر سے جو اس نے پیدا کی، اور اندھیری رات کے شر سے جب وہ چھا جائے، اور گٹھوں میں پھونک مارنے والی عورتوں کے شر سے، اور حسد کرنے والے کے شر سے جب وہ حسد کرے۔<br><b>انگریزی:</b> Say, I seek refuge in the Lord of daybreak, from the evil of what He created, and from the evil of darkness when it settles, and from the evil of the blowers in knots, and from the evil of an envier when he envies.">
-</div>
-
-<script>
-// Dark/Light toggle
-const modeBtn=document.getElementById('modeToggle');
-modeBtn.addEventListener('click',()=>{
-  document.body.classList.toggle('dark');
-});
-
-// Language toggle
-const langToggle=document.getElementById('langToggle');
-langToggle.addEventListener('change',()=>{
-  const lang=langToggle.value;
-  document.querySelectorAll('[data-en]').forEach(el=>{
-    el.innerHTML=el.getAttribute('data-'+lang);
-  });
-});
-</script>
-
-</body>
-</html><!-- PART 2 CONTINUATION -->
-
-<section id="surah" class="card gradient-card">
-<h2 data-en="Remaining Surahs" data-ur="باقی سورۃ">Remaining Surahs</h2>
-
-<!-- Surah 4: An-Nas -->
-<p><b data-en="4. Surah An-Nas" data-ur="4. سورۃ الناس">4. Surah An-Nas</b></p>
-<div class="arabic">
-قُلْ أَعُوذُ بِرَبِّ النَّاسِ<br>
-مَلِكِ النَّاسِ<br>
-إِلَٰهِ النَّاسِ<br>
-مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ<br>
-الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ<br>
-مِنَ الْجِنَّةِ وَالنَّاسِ
-</div>
-<div class="translation" data-en="<b>Urdu:</b> کہہ دو، میں پناہ لیتا ہوں لوگوں کے رب سے...<br><b>English:</b> Say, I seek refuge in the Lord of mankind..." data-ur="<b>اردو:</b> کہہ دو، میں پناہ لیتا ہوں لوگوں کے رب سے...<br><b>انگریزی:</b> Say, I seek refuge in the Lord of mankind..."></div>
-
-<!-- Surah 5: Al-Asr -->
-<p><b data-en="5. Surah Al-Asr" data-ur="5. سورۃ العصر">5. Surah Al-Asr</b></p>
-<div class="arabic">
-وَالْعَصْرِ<br>
-إِنَّ الْإِنسَانَ لَفِي خُسْرٍ<br>
-إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ
-</div>
-<div class="translation" data-en="<b>Urdu:</b> قسم ہے زمانے کی...<br><b>English:</b> By time, indeed, mankind is in loss..." data-ur="<b>اردو:</b> قسم ہے زمانے کی...<br><b>انگریزی:</b> By time, indeed, mankind is in loss..."></div>
-
-<!-- Surah 6: Al-Kawthar -->
-<p><b data-en="6. Surah Al-Kawthar" data-ur="6. سورۃ الکوثر">6. Surah Al-Kawthar</b></p>
-<div class="arabic">
-إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ<br>
-فَصَلِّ لِرَبِّكَ وَانْحَرْ<br>
-إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ
-</div>
-<div class="translation" data-en="<b>Urdu:</b> بے شک ہم نے تمہیں کوثر دیا...<br><b>English:</b> Indeed, We have granted you al-Kawthar..." data-ur="<b>اردو:</b> بے شک ہم نے تمہیں کوثر دیا...<br><b>انگریزی:</b> Indeed, We have granted you al-Kawthar..."></div>
-
-<!-- Surah 7-10: similar structure -->
-
-<!-- DUAS -->
+<!-- Duas -->
 <section id="dua" class="card">
-<h2 data-en="Daily Duas" data-ur="روزانہ کی دعائیں">Daily Duas</h2>
+<h2 data-en="Daily Duas" data-ur="روزانہ دعائیں">Daily Duas</h2>
 <ul>
-<li data-en="Morning Dua" data-ur="صبح کی دعا">رَبِّ أَنْتَ رَبِّي لا إِلَهَ إِلا أَنْتَ</li>
-<li data-en="Evening Dua" data-ur="شام کی دعا">أَسْتَغْفِرُ اللَّهَ</li>
-<li data-en="Before Sleep" data-ur="سونے سے پہلے">بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا</li>
+<li data-en="Morning Dua" data-ur="صبح کی دعا">رَبِّ اجعلني من المتقين</li>
+<li data-en="Evening Dua" data-ur="شام کی دعا">اللَّهُمَّ احفظني من كل سوء</li>
 </ul>
 </section>
 
-<!-- ROZA GUIDE -->
+<!-- Roza Tracker -->
 <section id="roza" class="card">
-<h2 data-en="Roza (Fasting) Guide" data-ur="روزہ کی رہنمائی">Roza (Fasting) Guide</h2>
-<ul>
-<li data-en="Suhoor Tips" data-ur="سحری کی ٹپس">Eat light, hydrate, and make intention.</li>
-<li data-en="Iftar Tips" data-ur="افطار کی ٹپس">Break fast with dates & water, then balanced meal.</li>
-<li data-en="Spiritual Tips" data-ur="روحانی ٹپس">Recite Quran, make Dua, avoid bad habits.</li>
-</ul>
+<h2 data-en="Roza Tracker" data-ur="روزہ ٹریکر">Roza Tracker</h2>
+<label data-en="Select Date" data-ur="تاریخ منتخب کریں">Date: </label>
+<input type="date" id="rozaDate"><button onclick="markRoza()" data-en="Mark Fast" data-ur="روزہ لگائیں">Mark Fast</button>
+<ul id="rozaList"></ul>
 </section>
 
-<!-- NAMAZ TIMINGS -->
+<!-- Namaz Timings -->
 <section id="namaz" class="card">
 <h2 data-en="Namaz Timings" data-ur="نماز کے اوقات">Namaz Timings</h2>
 <table>
-<tr><th data-en="Prayer" data-ur="نماز">Prayer</th><th data-en="Time" data-ur="وقت">Time</th></tr>
-<tr><td data-en="Fajr" data-ur="فجر">Fajr</td><td>5:00 AM</td></tr>
-<tr><td data-en="Dhuhr" data-ur="ظہر">Dhuhr</td><td>12:30 PM</td></tr>
-<tr><td data-en="Asr" data-ur="عصر">Asr</td><td>4:00 PM</td></tr>
-<tr><td data-en="Maghrib" data-ur="مغرب">Maghrib</td><td>6:30 PM</td></tr>
-<tr><td data-en="Isha" data-ur="عشاء">Isha</td><td>8:00 PM</td></tr>
+<tr><th data-en="Fajr" data-ur="فجر">Fajr</th><th data-en="Dhuhr" data-ur="ظہر">Dhuhr</th><th data-en="Asr" data-ur="عصر">Asr</th><th data-en="Maghrib" data-ur="مغرب">Maghrib</th><th data-en="Isha" data-ur="عشاء">Isha</th></tr>
+<tr><td>04:30</td><td>12:15</td><td>15:45</td><td>18:20</td><td>19:45</td></tr>
 </table>
 </section>
 
-<!-- CALENDAR -->
+<!-- Calendar -->
 <section id="calendar" class="card">
-<h2 data-en="Ramadan Calendar 2026" data-ur="رمضان کیلنڈر 2026">Ramadan Calendar 2026</h2>
-<p data-en="Check your local timings for accuracy." data-ur="صحیح وقت کے لیے اپنے مقامی وقت چیک کریں۔">Check your local timings for accuracy.</p>
+<h2 data-en="Ramadan Calendar" data-ur="رمضان کیلنڈر">Ramadan Calendar</h2>
+<p data-en="Daily calendar for Ramadan 2026" data-ur="روزانہ رمضان 2026 کیلنڈر">1 Ramadan - 3 April 2026 ...</p>
 </section>
 
-<!-- TARAWEEH -->
+<!-- Taraweeh -->
 <section id="taraweeh" class="card">
-<h2 data-en="Taraweeh Prayers" data-ur="ترواہی کی نماز">Taraweeh Prayers</h2>
-<p data-en="20 rakats nightly after Isha." data-ur="عشاء کے بعد روزانہ 20 رکعت۔">20 rakats nightly after Isha.</p>
+<h2 data-en="Taraweeh" data-ur="ترواہی">Taraweeh</h2>
+<p data-en="Recite 20 rakaats nightly" data-ur="روزانہ 20 رکعات پڑھیں">20 Rakaats</p>
 </section>
 
-<!-- ZAKAT -->
+<!-- Zakat Calculator -->
 <section id="zakat" class="card">
 <h2 data-en="Zakat Calculator" data-ur="زکوة کیلکولیٹر">Zakat Calculator</h2>
-<input type="number" id="zakatInput" placeholder="Amount" data-en="Enter amount" data-ur="رقم درج کریں">
-<button onclick="calculateZakat()" data-en="Calculate Zakat" data-ur="زکوة کیلکولیٹ کریں">Calculate Zakat</button>
+<label data-en="Amount in PKR" data-ur="رقم (PKR)">Amount:</label>
+<input type="number" id="zakatAmount">
+<button onclick="calculateZakat()" data-en="Calculate" data-ur="حساب کریں">Calculate</button>
 <p id="zakatResult"></p>
-<script>
-function calculateZakat(){
-  const amt=document.getElementById('zakatInput').value;
-  const zak=amt*0.025;
-  document.getElementById('zakatResult').innerText="Zakat: "+zak.toFixed(2);
-}
-</script>
 </section>
 
-<!-- TASBEEH -->
+<!-- Tasbeeh Counter -->
 <section id="tasbeeh" class="card">
 <h2 data-en="Tasbeeh Counter" data-ur="تسبیح کاؤنٹر">Tasbeeh Counter</h2>
-<button onclick="tasbeehInc()" data-en="Tap" data-ur="دبائیں">Tap</button>
-<p id="tasbeehCount">0</p>
-<script>
-let count=0;
-function tasbeehInc(){count++;document.getElementById('tasbeehCount').innerText=count;}
-</script>
+<p id="tasbeehCounter">0</p>
+<button onclick="incrementTasbeeh()" data-en="Add" data-ur="شمار بڑھائیں">Add</button>
+<button onclick="resetTasbeeh()" data-en="Reset" data-ur="ری سیٹ کریں">Reset</button>
 </section>
 
-<!-- QIBLA -->
+<!-- Qibla Compass -->
 <section id="qibla" class="card">
 <h2 data-en="Qibla Direction" data-ur="قبلہ کا رخ">Qibla Direction</h2>
-<p data-en="Face towards Kaaba in Mecca." data-ur="مکہ میں خانہ کعبہ کی طرف رخ کریں۔">Face towards Kaaba in Mecca.</p>
+<div id="qiblaCanvas">Compass Placeholder</div>
 </section>
 
-<!-- RECIPES -->
+<!-- Recipes -->
 <section id="recipes" class="card">
-<h2 data-en="Ramadan Recipes" data-ur="رمضان کے پکوان">Ramadan Recipes</h2>
+<h2 data-en="Ramadan Recipes" data-ur="رمضان پکوان">Ramadan Recipes</h2>
 <ul>
-<li data-en="Date Smoothie" data-ur="کھجور کا شیک">Date Smoothie</li>
-<li data-en="Chicken Haleem" data-ur="چکن حلیم">Chicken Haleem</li>
-<li data-en="Fruit Chaat" data-ur="فروٹ چاٹ">Fruit Chaat</li>
+<li data-en="Iftar Soup" data-ur="افطار کا سوپ">Lentil Soup</li>
+<li data-en="Sehri Paratha" data-ur="سحری پراٹھا">Stuffed Paratha</li>
 </ul>
 </section>
 
-<!-- GOALS -->
+<!-- Goals -->
 <section id="goals" class="card">
-<h2 data-en="Ramadan Goals" data-ur="رمضان کے مقاصد">Ramadan Goals</h2>
+<h2 data-en="Goals" data-ur="مقاصد">Goals</h2>
 <ul>
-<li data-en="Read Quran Daily" data-ur="روزانہ قرآن پڑھنا">Read Quran Daily</li>
-<li data-en="Pray 5 Times" data-ur="پانچ وقت کی نماز پڑھنا">Pray 5 Times</li>
-<li data-en="Help Needy" data-ur="ضرورت مند کی مدد کرنا">Help Needy</li>
+<li data-en="Spiritual Growth" data-ur="روحانی ترقی">Spiritual Growth</li>
+<li data-en="Charity" data-ur="صدقہ">Charity</li>
 </ul>
 </section>
 
-<!-- QUOTES -->
+<!-- Quotes -->
 <section id="quotes" class="card">
-<h2 data-en="Inspirational Quotes" data-ur="حوصلہ افزا اقتباسات">Inspirational Quotes</h2>
+<h2 data-en="Quotes" data-ur="اقتباسات">Quotes</h2>
 <ul>
-<li data-en="Ramadan is a chance to purify your soul." data-ur="رمضان آپ کی روح پاک کرنے کا موقع ہے۔">Ramadan is a chance to purify your soul.</li>
-<li data-en="Fasting is not just hunger, it's discipline." data-ur="روزہ صرف بھوک نہیں، یہ نظم و ضبط ہے۔">Fasting is not just hunger, it's discipline.</li>
+<li data-en="Patience is key" data-ur="صبر کلید ہے">Patience is key</li>
+<li data-en="Faith and good deeds" data-ur="ایمان اور نیک عمل">Faith and good deeds</li>
 </ul>
 </section>
 
-<!-- CHECKLIST -->
+<!-- Checklist -->
 <section id="checklist" class="card">
 <h2 data-en="Ramadan Checklist" data-ur="رمضان چیک لسٹ">Ramadan Checklist</h2>
 <ul>
-<li data-en="Set Daily Quran Goal" data-ur="روزانہ قرآن کا ہدف مقرر کریں">Set Daily Quran Goal</li>
-<li data-en="Track Prayers" data-ur="نمازوں کا ٹریک رکھیں">Track Prayers</li>
-<li data-en="Plan Iftar/Suhoor" data-ur="افطار/سحری کی منصوبہ بندی کریں">Plan Iftar/Suhoor</li>
-<li data-en="Donate Zakat/Sadaqah" data-ur="زکوة/صدقہ دیں">Donate Zakat/Sadaqah</li>
+<li data-en="Read Quran daily" data-ur="روز قرآن پڑھیں"><input type="checkbox"> Read Quran daily</li>
+<li data-en="Pray all Namaz" data-ur="تمام نمازیں پڑھیں"><input type="checkbox"> Pray all Namaz</li>
+<li data-en="Give charity" data-ur="صدقہ دیں"><input type="checkbox"> Give charity</li>
+<li data-en="Make dua" data-ur="دعا کریں"><input type="checkbox"> Make dua</li>
 </ul>
 </section>
 
+<!-- JS Functions -->
 <script>
-// Same Dark/Light & Language toggle applies for part 2 content
-document.querySelectorAll('[data-en]').forEach(el=>{
-  el.innerHTML=el.getAttribute('data-en');
-});
+let dark = false;
+let langEn = true;
+
+// Dark/Light Toggle
+function toggleDark(){
+  dark = !dark;
+  document.body.classList.toggle('dark-mode', dark);
+}
+
+// Language Toggle
+function toggleLang(){
+  langEn = !langEn;
+  const elements = document.querySelectorAll('[data-en]');
+  elements.forEach(el=>{
+    el.textContent = langEn ? el.getAttribute('data-en') : el.getAttribute('data-ur');
+  });
+}
+
+// Roza Tracker
+function markRoza(){
+  const date = document.getElementById('rozaDate').value;
+  if(date){
+    const li = document.createElement('li');
+    li.textContent = date;
+    document.getElementById('rozaList').appendChild(li);
+  }
+}
+
+// Zakat Calculator
+function calculateZakat(){
+  const amt = Number(document.getElementById('zakatAmount').value);
+  if(amt>0){
+    document.getElementById('zakatResult').textContent = "Zakat: " + (amt*0.025).toFixed(2) + " PKR";
+  } else {document.getElementById('zakatResult').textContent="";}
+}
+
+// Tasbeeh Counter
+let tasbeeh = 0;
+function incrementTasbeeh(){
+  tasbeeh++;
+  document.getElementById('tasbeehCounter').textContent = tasbeeh;
+}
+function resetTasbeeh(){
+  tasbeeh = 0;
+  document.getElementById('tasbeehCounter').textContent = tasbeeh;
+}
+</script>
+
+</body>
+</html>
