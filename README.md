@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -116,6 +115,164 @@ input[type="number"]{width:80px;}
 <div id="futures">
 <button onclick="toggleDark()" data-en="Dark/Light" data-ur="ڈارک/لائٹ">Dark/Light</button>
 <button onclick="toggleLang()" data-en="EN/UR" data-ur="انگریزی/اردو">EN/UR</button>
+</div><title>10 Surahs Complete</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+<style>
+body{font-family:Arial,sans-serif;background:#fefefe;color:#333;line-height:1.6;padding:20px;}
+h2{text-align:center;color:#0d3b66;}
+.arabic{font-family:'Amiri',serif;font-size:24px;direction:rtl;text-align:right;margin:10px 0;color:#222;}
+.translation{margin:5px 0;font-size:16px;color:#444;}
+.card{background:#fff;padding:20px;margin:20px auto;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.1);}
+b{color:#0d3b66;}
+</style>
+</head>
+<body>
+
+<div class="card">
+<h2>1. Surah Al-Fatiha</h2>
+<div class="arabic">
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ<br>
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ<br>
+الرَّحْمَنِ الرَّحِيمِ<br>
+مَالِكِ يَوْمِ الدِّينِ<br>
+إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ<br>
+اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ<br>
+صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ
+</div>
+<div class="translation">
+<b>Urdu:</b> اللہ کے نام سے جو نہایت رحم والا، مہربان ہے۔ تمام تعریفیں اللہ ہی کے لیے ہیں جو سارے جہانوں کا رب ہے۔ وہ نہایت رحم والا، مہربان ہے۔ روز جزا کا مالک۔ ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد چاہتے ہیں۔ ہمیں سیدھا راستہ دکھا۔ ان لوگوں کا راستہ جن پر تو نے انعام فرمایا، نہ ان کا جن پر غضب ہوا اور نہ گمراہوں کا۔<br>
+<b>English:</b> In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path. The path of those upon whom You have bestowed favor, not of those who have evoked Your anger, nor of the misguided.
+</div>
+</div>
+
+<div class="card">
+<h2>2. Surah Al-Ikhlas</h2>
+<div class="arabic">
+قُلْ هُوَ اللَّهُ أَحَدٌ<br>
+اللَّهُ الصَّمَدُ<br>
+لَمْ يَلِدْ وَلَمْ يُولَدْ<br>
+وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ
+</div>
+<div class="translation">
+<b>Urdu:</b> کہہ دو، اللہ ایک ہے۔ اللہ بے نیاز ہے۔ نہ اس کی کوئی اولاد ہے اور نہ وہ کسی سے پیدا ہوا ہے۔ اور نہ اس کا کوئی ہمسر ہے۔<br>
+<b>English:</b> Say, He is Allah, [who is] One. Allah, the Eternal Refuge. He neither begets nor is born. Nor is there to Him any equivalent.
+</div>
+</div>
+
+<div class="card">
+<h2>3. Surah Al-Falaq</h2>
+<div class="arabic">
+قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ<br>
+مِن شَرِّ مَا خَلَقَ<br>
+وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ<br>
+وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ<br>
+وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ
+</div>
+<div class="translation">
+<b>Urdu:</b> کہہ دو، میں پناہ لیتا ہوں صبح کے رب کی، ہر اس چیز کے شر سے جو اس نے پیدا کی، اور اندھیری رات کے شر سے جب وہ چھا جائے، اور گٹھوں میں پھونک مارنے والی عورتوں کے شر سے، اور حسد کرنے والے کے شر سے جب وہ حسد کرے۔<br>
+<b>English:</b> Say, I seek refuge in the Lord of daybreak, from the evil of what He created, and from the evil of darkness when it settles, and from the evil of the blowers in knots, and from the evil of an envier when he envies.
+</div>
+</div>
+
+<div class="card">
+<h2>4. Surah An-Nas</h2>
+<div class="arabic">
+قُلْ أَعُوذُ بِرَبِّ النَّاسِ<br>
+مَلِكِ النَّاسِ<br>
+إِلَٰهِ النَّاسِ<br>
+مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ<br>
+الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ<br>
+مِنَ الْجِنَّةِ وَالنَّاسِ
+</div>
+<div class="translation">
+<b>Urdu:</b> کہہ دو، میں پناہ لیتا ہوں لوگوں کے رب سے، لوگوں کے بادشاہ سے، لوگوں کے معبود سے، شیطانی وسوسوں کے شر سے جو دلوں میں گھس آئے، جو جن اور انسان میں سے وسوسہ ڈالتا ہے۔<br>
+<b>English:</b> Say, I seek refuge in the Lord of mankind, the Sovereign of mankind, the God of mankind, from the evil of the whisperer who withdraws, who whispers in the breasts of mankind, among jinn and among men.
+</div>
+</div>
+
+<div class="card">
+<h2>5. Surah Al-Asr</h2>
+<div class="arabic">
+وَالْعَصْرِ<br>
+إِنَّ الْإِنسَانَ لَفِي خُسْرٍ<br>
+إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ
+</div>
+<div class="translation">
+<b>Urdu:</b> قسم ہے زمانے کی۔ بیشک انسان خسارے میں ہے، سوائے ان کے جو ایمان لائے، نیک عمل کیے، اور حق اور صبر کی تلقین کی۔<br>
+<b>English:</b> By time, indeed, mankind is in loss, except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.
+</div>
+</div>
+
+<div class="card">
+<h2>6. Surah Al-Kawthar</h2>
+<div class="arabic">
+إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ<br>
+فَصَلِّ لِرَبِّكَ وَانْحَرْ<br>
+إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ
+</div>
+<div class="translation">
+<b>Urdu:</b> بے شک ہم نے تمہیں کوثر دیا، پس اپنے رب کے لیے نماز پڑھو اور قربانی کرو۔ بے شک تمہارا دشمن ہی بے نسل ہے۔<br>
+<b>English:</b> Indeed, We have granted you al-Kawthar. So pray to your Lord and sacrifice [to Him alone]. Indeed, your enemy is the one cut off.
+</div>
+</div>
+
+<div class="card">
+<h2>7. Surah Al-Ma'un</h2>
+<div class="arabic">
+أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ<br>
+فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ<br>
+وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ<br>
+فَوَيْلٌ لِلْمُصَلِّينَ<br>
+الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ<br>
+الَّذِينَ هُمْ يُرَاءُونَ
+</div>
+<div class="translation">
+<b>Urdu:</b> کیا تم نے اس شخص کو دیکھا جو دین کو جھٹلاتا ہے؟ یہی ہے جو یتیم کو دھکیلتا ہے اور مسکین کو کھانا دینے کی ترغیب نہیں دیتا۔ پس بدقسمتی ہے ان نمازیوں کے لیے جو اپنی نماز سے غافل ہیں اور ریاکاری کرتے ہیں۔<br>
+<b>English:</b> Have you seen the one who denies the Recompense? For that is the one who drives away the orphan and does not encourage the feeding of the poor. So woe to those who pray, but are heedless of their prayer, who make show [of their deeds].
+</div>
+</div>
+
+<div class="card">
+<h2>8. Surah Al-Quraish</h2>
+<div class="arabic">
+لِإِيلَافِ قُرَيْشٍ<br>
+إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ<br>
+فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ<br>
+الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ
+</div>
+<div class="translation">
+<b>Urdu:</b> قریش کی عادت کے لیے، سردیوں اور گرمیوں کی تجارت کے لیے، پس وہ اس گھر کے رب کی عبادت کریں، جس نے انہیں بھوک سے کھانا دیا اور خوف سے محفوظ رکھا۔<br>
+<b>English:</b> For the accustomed security of the Quraysh, their accustomed journey in winter and summer. Let them worship the Lord of this House, who has fed them against hunger and made them safe from fear.
+</div>
+</div>
+
+<div class="card">
+<h2>9. Surah Al-Kafirun</h2>
+<div class="arabic">
+قُلْ يَا أَيُّهَا الْكَافِرُونَ<br>
+لَا أَعْبُدُ مَا تَعْبُدُونَ<br>
+وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ<br>
+وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ<br>
+وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ<br>
+لَكُمْ دِينُكُمْ وَلِيَ دِينِ
+</div>
+<div class="translation">
+<b>Urdu:</b> کہہ دو، اے کافر! میں وہ نہیں پوجتا جو تم پوجتے ہو۔ اور نہ تم وہ پوجو گے جو میں پوجتا ہوں۔ تمہارا دین تمہارے لیے، اور میرا دین میرے لیے۔<br>
+<b>English:</b> Say, O disbelievers, I do not worship what you worship. Nor are you worshippers of what I worship. Nor will I be a worshipper of what you worship. Nor will you be worshippers of what I worship. For you is your religion, and for me is my religion.
+</div>
+</div>
+
+<div class="card">
+<h2>10. Surah An-Nasr</h2>
+<div class="arabic">
+إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ<br>
+وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا<br>
+فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا
+</div>
+<div class="translation">
+<b>Urdu:</b> جب اللہ کی مدد اور فتح آئے، اور تم دیکھو کہ لوگ بڑی جماعتوں میں اللہ کے دین میں داخل ہو رہے ہیں، تو اپنے رب کی حمد کے ساتھ تسبیح کرو اور اس سے معافی مانگو۔ بیشک وہ بڑا توبہ قبول کرنے والا ہے۔<br>
+<b>English:</b> When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.
+</div>
 </div>
 
 <!-- ================= 10 SURAH KE BAAD FULL SECTION ================= -->
