@@ -232,12 +232,12 @@ input[type="number"]{width:80px;}
 <b>Urdu:</b> جب اللہ کی مدد اور فتح آ جائے اور تم دیکھو لوگ بڑی تعداد میں دین اللہ میں داخل ہو رہے ہیں، تو اپنے رب کی حمد کے ساتھ تسبیح کرو اور اس سے مغفرت طلب کرو، بے شک وہ بہت توبہ قبول کرنے والا ہے۔<br>
 <b>English:</b> When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.
 </div>
-</section>
+</section><!-- 10 Surahs ke baad se poori file -->
 
 <!-- DUAS -->
 <section id="dua" class="card">
-<h2 data-en="Important Duas" data-ur="اہم دعائیں">Important Duas</h2>
-<ul>
+<h2 data-en="Important Duas" data-ur="اہم دعائیں" style="color:#0d3b66;">Important Duas</h2>
+<ul style="color:#333;">
 <li data-en="Dua for Breaking Fast" data-ur="روزہ کھولنے کی دعا">
 <b>Arabic:</b> اللّهُمَّ إِنِّي لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ<br>
 <b>Urdu:</b> اے اللہ! میں نے تیرے لیے روزہ رکھا، تجھ پر ایمان لایا، تجھ پر توکل کیا اور تیرے رزق سے افطار کیا۔<br>
@@ -253,26 +253,32 @@ input[type="number"]{width:80px;}
 <b>Urdu:</b> اللہ کے نام سے میں مرتا اور جیتا ہوں۔<br>
 <b>English:</b> In Your name, O Allah, I die and I live.
 </li>
+<li data-en="Before Sleep" data-ur="سونے سے پہلے">
+<b>Arabic:</b> اللّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ<br>
+<b>Urdu:</b> اے اللہ! مجھے اپنے عذاب سے محفوظ رکھ اس دن جب تو اپنے بندوں کو زندہ کرے گا۔<br>
+<b>English:</b> O Allah! Protect me from Your punishment on the Day You resurrect Your servants.
+</li>
 </ul>
 </section>
 
 <!-- ROZA GUIDE -->
 <section id="roza" class="card">
-<h2 data-en="Roza (Fasting) Guide" data-ur="روزہ کی ہدایات">Roza (Fasting) Guide</h2>
-<ul>
-<li data-en="Intention" data-ur="نیت">Niyyah (make intention for fast)</li>
-<li data-en="Suhoor" data-ur="سحری">Take Suhoor before Fajr</li>
+<h2 data-en="Roza (Fasting) Guide" data-ur="روزہ کی ہدایات" style="color:#0d3b66;">Roza (Fasting) Guide</h2>
+<ul style="color:#333;">
+<li data-en="Intention" data-ur="نیت">Niyyah (Make intention for fast before Fajr)</li>
+<li data-en="Suhoor" data-ur="سحری">Take Suhoor at least 30 min before Fajr</li>
 <li data-en="Iftar" data-ur="افطار">Break fast immediately after Maghrib</li>
 <li data-en="Supplication" data-ur="دعائیں">Recite Dua before Iftar</li>
-<li data-en="Exemptions" data-ur="استثناء">Children, sick, and travelers can skip fasting</li>
+<li data-en="Exemptions" data-ur="استثناء">Children, sick, and travelers are exempt</li>
+<li data-en="Benefits" data-ur="فوائد">Fasting teaches self-discipline, empathy, and spiritual growth</li>
 </ul>
 </section>
 
 <!-- NAMAZ TIMINGS -->
 <section id="namaz" class="card">
-<h2 data-en="Namaz Timings" data-ur="نماز کے اوقات">Namaz Timings</h2>
-<p data-en="All cities timings are approximate" data-ur="تمام شہروں کے اوقات تقریباً ہیں">All cities timings are approximate</p>
-<table>
+<h2 data-en="Namaz Timings" data-ur="نماز کے اوقات" style="color:#0d3b66;">Namaz Timings</h2>
+<p data-en="All city timings are approximate" data-ur="تمام شہروں کے اوقات تقریباً ہیں" style="color:#333;">All city timings are approximate</p>
+<table style="color:#333;">
 <tr><th data-en="City" data-ur="شہر">City</th><th data-en="Fajr" data-ur="فجر">Fajr</th><th data-en="Dhuhr" data-ur="ظہر">Dhuhr</th><th data-en="Asr" data-ur="عصر">Asr</th><th data-en="Maghrib" data-ur="مغرب">Maghrib</th><th data-en="Isha" data-ur="عشاء">Isha</th></tr>
 <tr><td>Karachi</td><td>5:10 AM</td><td>12:30 PM</td><td>3:45 PM</td><td>6:50 PM</td><td>8:10 PM</td></tr>
 <tr><td>Lahore</td><td>5:20 AM</td><td>12:35 PM</td><td>3:50 PM</td><td>7:00 PM</td><td>8:20 PM</td></tr>
@@ -281,113 +287,93 @@ input[type="number"]{width:80px;}
 </table>
 </section>
 
-<!-- TARAWEH -->
+<!-- TARAWEEH GUIDE -->
 <section id="taraweeh" class="card">
-<h2 data-en="Taraweeh Guide" data-ur="ترواہی کی ہدایات">Taraweeh Guide</h2>
-<p>Pray 8 or 20 rakats according to your capacity. Recite long Surahs in early nights, shorter ones later.</p>
+<h2 data-en="Taraweeh Guide" data-ur="ترواہی کی ہدایات" style="color:#0d3b66;">Taraweeh Guide</h2>
+<ul style="color:#333;">
+<li data-en="Performed after Isha" data-ur="نماز عشاء کے بعد">Taraweeh is performed after Isha prayer</li>
+<li data-en="Number of Rakat" data-ur="رکعتوں کی تعداد">Usually 8, 20 or as per your local masjid</li>
+<li data-en="Recitation" data-ur="تلاوت">Recite Qur’an in portions during each Rakat</li>
+<li data-en="Reward" data-ur="ثواب">Great spiritual reward, highly recommended</li>
+</ul>
 </section>
 
-<!-- ZAKAT -->
+<!-- ZAKAT GUIDE -->
 <section id="zakat" class="card">
-<h2 data-en="Zakat Calculation" data-ur="زکوة کا حساب">Zakat Calculation</h2>
-<p>Pay 2.5% of your savings yearly if it exceeds Nisab.</p>
-<input type="number" id="zakatAmount" placeholder="Enter savings">
-<button onclick="calcZakat()">Calculate Zakat</button>
-<p id="zakatResult"></p>
+<h2 data-en="Zakat Guide" data-ur="زکوة کی ہدایات" style="color:#0d3b66;">Zakat Guide</h2>
+<ul style="color:#333;">
+<li data-en="Eligibility" data-ur="اہلیت">If wealth exceeds Nisab (minimum threshold)</li>
+<li data-en="Rate" data-ur="شرح">2.5% of total savings & wealth</li>
+<li data-en="Recipients" data-ur="موصول کنندگان">Poor, needy, new converts, debt-ridden, travelers</li>
+<li data-en="Calculation" data-ur="حساب">Use Zakat calculator for accurate calculation</li>
+<li data-en="Benefits" data-ur="فوائد">Purifies wealth and increases blessings</li>
+</ul>
 </section>
-
-<script>
-function calcZakat(){
-  let amount=document.getElementById('zakatAmount').value;
-  if(amount && !isNaN(amount)){
-    document.getElementById('zakatResult').innerText="Zakat: "+(amount*0.025).toFixed(2);
-  } else {document.getElementById('zakatResult').innerText="Enter valid number";}
-}
-</script>
 
 <!-- TASBEEH -->
 <section id="tasbeeh" class="card">
-<h2 data-en="Tasbeeh" data-ur="تسبیح">Tasbeeh</h2>
-<p>Count your Tasbeeh using below buttons:</p>
-<button onclick="incTasbeeh()">+1</button>
-<button onclick="resetTasbeeh()">Reset</button>
-<p id="tasbeehCount">0</p>
-<script>
-let count=0;
-function incTasbeeh(){count++;document.getElementById('tasbeehCount').innerText=count;}
-function resetTasbeeh(){count=0;document.getElementById('tasbeehCount').innerText=count;}
-</script>
+<h2 data-en="Tasbeeh & Dhikr" data-ur="تسبیح و ذکر" style="color:#0d3b66;">Tasbeeh & Dhikr</h2>
+<ul style="color:#333;">
+<li data-en="SubhanAllah" data-ur="سبحان اللہ">Say 33 times after each prayer</li>
+<li data-en="Alhamdulillah" data-ur="الحمد للہ">Say 33 times after each prayer</li>
+<li data-en="Allahu Akbar" data-ur="اللہ اکبر">Say 34 times after each prayer</li>
+<li data-en="Additional Dhikr" data-ur="مزید ذکر">Recite morning and evening supplications for protection</li>
+</ul>
 </section>
 
 <!-- QIBLA -->
 <section id="qibla" class="card">
-<h2 data-en="Qibla Direction" data-ur="قبلہ کی سمت">Qibla Direction</h2>
-<p>Face towards the Kaaba in Mecca during prayers. Use compass or app for exact direction.</p>
+<h2 data-en="Qibla Direction" data-ur="قبلہ" style="color:#0d3b66;">Qibla Direction</h2>
+<p style="color:#333;" data-en="Use compass or online Qibla finder" data-ur="قطب نما یا آن لائن قبلہ معلوم کرنے والے استعمال کریں">Use compass or online Qibla finder</p>
 </section>
 
 <!-- RECIPES -->
 <section id="recipes" class="card">
-<h2 data-en="Iftar & Sehri Recipes" data-ur="افطار اور سحری کے پکوان">Iftar & Sehri Recipes</h2>
-<ul>
-<li>Dates & Water to break fast</li>
-<li>Fruits & Smoothies</li>
-<li>Chicken or Lentil Dishes</li>
-<li>Light Desserts</li>
-<li>Hydrating Drinks</li>
-</ul>
-</section>
-
-<!-- QUOTES / AHADEES -->
-<section id="quotes" class="card">
-<h2 data-en="Quotes & Ahadees" data-ur="اقوال و احادیث">Quotes & Ahadees</h2>
-<ul>
-<li>"The best among you are those who learn the Quran and teach it." – Prophet Muhammad ﷺ</li>
-<li>"Whoever fasts during Ramadan with faith and seeking reward, his past sins are forgiven." – Sahih Bukhari</li>
-<li>"Allah does not burden a soul beyond that it can bear." – Quran 2:286</li>
-<li>"Seek knowledge from the cradle to the grave." – Hadith</li>
-<li>"Pray as if you see Allah; if you do not see Him, He sees you." – Hadith</li>
+<h2 data-en="Ramadan Recipes" data-ur="رمضان کے پکوان" style="color:#0d3b66;">Ramadan Recipes</h2>
+<ul style="color:#333;">
+<li>Chicken Biryani – Serve with salad and raita</li>
+<li>Fruit Chaat – Healthy and refreshing</li>
+<li>Dates & Nuts – For quick energy during fast</li>
+<li>Lentil Soup (Daal) – Warm and nutritious</li>
+<li>Samosa & Pakora – Light fried snacks</li>
 </ul>
 </section>
 
 <!-- GOALS -->
 <section id="goals" class="card">
-<h2 data-en="Ramadan Goals" data-ur="رمضان کے مقاصد">Ramadan Goals</h2>
-<ul>
-<li>Read at least 1 Juz per day</li>
-<li>Perform extra prayers (Nafl, Taraweeh)</li>
-<li>Give charity daily</li>
-<li>Recite daily duas & dhikr</li>
-<li>Self-reflection & improve character</li>
+<h2 data-en="Spiritual Goals" data-ur="روحانی مقاصد" style="color:#0d3b66;">Spiritual Goals</h2>
+<ul style="color:#333;">
+<li>Read the Qur’an completely or portions daily</li>
+<li>Offer all prayers on time</li>
+<li>Increase charity (Sadaqah)</li>
+<li>Engage in extra Dhikr & Dua</li>
+<li>Self-reflection and improvement</li>
+</ul>
+</section>
+
+<!-- QUOTES & AHADITH -->
+<section id="quotes" class="card">
+<h2 data-en="Quotes & Ahadees" data-ur="اقتباسات اور احادیث" style="color:#0d3b66;">Quotes & Ahadees</h2>
+<ul style="color:#333;">
+<li>"Whoever fasts Ramadan with faith and seeking reward from Allah, all previous sins will be forgiven." – Sahih Bukhari</li>
+<li>"Allah does not burden a soul beyond that it can bear." – Quran 2:286</li>
+<li>"The best of people are those that bring most benefit to the rest of mankind." – Prophet Muhammad ﷺ</li>
+<li>"Prayer is the key to Paradise." – Hadith</li>
+<li>"The one who shows mercy will be shown mercy." – Hadith</li>
+<li>"He who believes in Allah and the Last Day should speak good or remain silent." – Sahih Muslim</li>
 </ul>
 </section>
 
 <!-- CHECKLIST -->
 <section id="checklist" class="card">
-<h2 data-en="Ramadan Checklist" data-ur="رمضان چیک لسٹ">Ramadan Checklist</h2>
-<ul>
-<li>Suhoor & Iftar prepared</li>
-<li>Prayer mat & Quran ready</li>
-<li>Tasbeeh counter ready</li>
-<li>Charity contributions planned</li>
-<li>Ramadan goals listed</li>
+<h2 data-en="Ramadan Checklist" data-ur="رمضان چیک لسٹ" style="color:#0d3b66;">Ramadan Checklist</h2>
+<ul style="color:#333;">
+<li>Make daily Qur’an reading schedule</li>
+<li>Prepare Suhoor & Iftar menu</li>
+<li>Set prayer reminders</li>
+<li>Check Zakat eligibility</li>
+<li>Keep Tasbeeh & Dua book handy</li>
+<li>Plan charity & good deeds</li>
+<li>Track Taraweeh completion</li>
 </ul>
 </section>
-
-<!-- LANGUAGE & DARK MODE TOGGLE -->
-<div id="futures" class="card" style="position:fixed;bottom:10px;right:10px;z-index:1001;">
-<button onclick="toggleDark()" data-en="Dark/Light" data-ur="ڈارک/لائٹ">Dark/Light</button>
-<button onclick="toggleLang()" data-en="EN/UR" data-ur="انگریزی/اردو">EN/UR</button>
-</div>
-
-<script>
-function toggleDark(){
-  document.body.classList.toggle('dark-mode');
-}
-function toggleLang(){
-  let lang=document.body.getAttribute('data-lang')||'en';
-  let newLang=lang==='en'?'ur':'en';
-  document.body.setAttribute('data-lang',newLang);
-  document.querySelectorAll('[data-en]').forEach(el=>{
-    el.innerText=newLang==='en'?el.getAttribute('data-en'):el.getAttribute('data-ur');
-  });
-}
