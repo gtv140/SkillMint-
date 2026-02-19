@@ -62,7 +62,7 @@ input[type="number"]{width:80px;}
 <b>English:</b> In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path. The path of those upon whom You have bestowed favor, not of those who have evoked Your anger, nor of the misguided.
 </div>
 
-<!-- Surah 2 to 10 (All included in same format) -->
+<!-- Surah 2: Al-Ikhlas -->
 <p><b>2. Surah Al-Ikhlas</b></p>
 <div class="arabic">
 قُلْ هُوَ اللَّهُ أَحَدٌ<br>
@@ -89,38 +89,126 @@ input[type="number"]{width:80px;}
 <b>English:</b> Say, I seek refuge in the Lord of daybreak, from the evil of what He created, and from the evil of darkness when it settles, and from the evil of the blowers in knots, and from the evil of an envier when he envies.
 </div>
 
-<!-- Surah 4 to 10 continue same pattern -->
-<!-- For brevity, imagine all 10 Surahs fully included with Arabic + Urdu + English -->
+<!-- Surah 4: An-Nas -->
+<p><b>4. Surah An-Nas</b></p>
+<div class="arabic">
+قُلْ أَعُوذُ بِرَبِّ النَّاسِ<br>
+مَلِكِ النَّاسِ<br>
+إِلَٰهِ النَّاسِ<br>
+مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ<br>
+الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ<br>
+مِنَ الْجِنَّةِ وَالنَّاسِ
+</div>
+<div class="translation">
+<b>Urdu:</b> کہہ دو، میں پناہ لیتا ہوں لوگوں کے رب سے، لوگوں کے بادشاہ سے، لوگوں کے معبود سے، شیطانی وسوسوں کے شر سے جو دلوں میں گھس آئے، جو جن اور انسان میں سے وسوسہ ڈالتا ہے۔<br>
+<b>English:</b> Say, I seek refuge in the Lord of mankind, the Sovereign of mankind, the God of mankind, from the evil of the whisperer who withdraws, who whispers in the breasts of mankind, among jinn and among men.
+</div>
 
+<!-- Surah 5: Al-Asr -->
+<p><b>5. Surah Al-Asr</b></p>
+<div class="arabic">
+وَالْعَصْرِ<br>
+إِنَّ الْإِنسَانَ لَفِي خُسْرٍ<br>
+إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ
+</div>
+<div class="translation">
+<b>Urdu:</b> قسم ہے زمانے کی۔ بیشک انسان خسارے میں ہے، سوائے ان کے جو ایمان لائے، نیک عمل کیے، اور حق اور صبر کی تلقین کی۔<br>
+<b>English:</b> By time, indeed, mankind is in loss, except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.
+</div>
+
+<!-- Surah 6: Al-Kawthar -->
+<p><b>6. Surah Al-Kawthar</b></p>
+<div class="arabic">
+إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ<br>
+فَصَلِّ لِرَبِّكَ وَانْحَرْ<br>
+إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ
+</div>
+<div class="translation">
+<b>Urdu:</b> بے شک ہم نے تمہیں کوثر دیا، پس اپنے رب کے لیے نماز پڑھو اور قربانی کرو۔ بے شک تمہارا دشمن ہی بے نسل ہے۔<br>
+<b>English:</b> Indeed, We have granted you al-Kawthar. So pray to your Lord and sacrifice [to Him alone]. Indeed, your enemy is the one cut off.
+</div>
+
+<!-- Surah 7: Al-Ma'un -->
+<p><b>7. Surah Al-Ma'un</b></p>
+<div class="arabic">
+أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ<br>
+فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ<br>
+وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ<br>
+فَوَيْلٌ لِلْمُصَلِّينَ<br>
+الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ<br>
+الَّذِينَ هُمْ يُرَاءُونَ
+</div>
+<div class="translation">
+<b>Urdu:</b> کیا تم نے اس شخص کو دیکھا جو دین کو جھٹلاتا ہے؟ یہی ہے جو یتیم کو دھکیلتا ہے اور مسکین کو کھانا دینے کی ترغیب نہیں دیتا۔ پس بدقسمتی ہے ان نمازیوں کے لیے جو اپنی نماز سے غافل ہیں اور ریاکاری کرتے ہیں۔<br>
+<b>English:</b> Have you seen the one who denies the Recompense? For that is the one who drives away the orphan and does not encourage the feeding of the poor. So woe to those who pray, but are heedless of their prayer, who make show [of their deeds].
+</div>
+
+<!-- Surah 8: Al-Quraish -->
+<p><b>8. Surah Al-Quraish</b></p>
+<div class="arabic">
+لِإِيلَافِ قُرَيْشٍ<br>
+إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ<br>
+فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ<<!-- Part 2 of Ultimate Ramadan 2026 Guide -->
+
+<!-- Surah 9: Al-Kafirun -->
+<section id="surah9" class="card gradient-card">
+<p><b>9. Surah Al-Kafirun</b></p>
+<div class="arabic">
+قُلْ يَا أَيُّهَا الْكَافِرُونَ<br>
+لَا أَعْبُدُ مَا تَعْبُدُونَ<br>
+وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ<br>
+وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ<br>
+وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ<br>
+لَكُمْ دِينُكُمْ وَلِيَ دِينِ
+</div>
+<div class="translation">
+<b>Urdu:</b> کہہ دو، اے کافر! میں وہ نہیں پوجتا جو تم پوجتے ہو۔ اور نہ تم وہ پوجو گے جو میں پوجتا ہوں۔ تمہارا دین تمہارے لیے، اور میرا دین میرے لیے۔<br>
+<b>English:</b> Say, O disbelievers, I do not worship what you worship. Nor will you worship what I worship. For you is your religion, and for me is my religion.
+</div>
 </section>
 
+<!-- Surah 10: An-Nasr -->
+<section id="surah10" class="card gradient-card">
+<p><b>10. Surah An-Nasr</b></p>
+<div class="arabic">
+إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ<br>
+وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا<br>
+فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا
+</div>
+<div class="translation">
+<b>Urdu:</b> جب اللہ کی مدد اور فتح آ جائے، اور تم دیکھو لوگ جماعتوں میں اللہ کے دین میں داخل ہوتے ہیں، تو اپنے رب کی تعریف کرتے ہوئے تسبیح کرو اور اس سے معافی مانگو۔ بے شک وہ بہت توبہ قبول کرنے والا ہے۔<br>
+<b>English:</b> When the victory of Allah has come and the conquest, and you see the people entering Allah’s religion in multitudes, then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.
+</div>
+</section>
+
+<!-- Duas Section -->
 <section id="dua" class="card">
-<h2>Ramadan Duas</h2>
+<h2>Duas for Ramadan</h2>
 <ul>
-<li>اللَّهُمَّ اجعل صيامي فيه صيام الصائمين<br><b>Urdu:</b> اے اللہ! میرا روزہ ایسے قبول فرما جیسے روزہ داروں کا روزہ ہو۔</li>
-<li>اللَّهُمَّ تقبل صيامي وقيامى<br><b>Urdu:</b> اے اللہ! میرا روزہ اور نماز قبول فرما۔</li>
-<li>اللَّهُمَّ اجعلني من عتقائك من النار<br><b>Urdu:</b> اے اللہ! مجھے دوزخ سے آزاد شدگان میں شامل فرما۔</li>
-<li>اللَّهُمَّ اجعلني من عبادك الصالحين<br><b>Urdu:</b> اے اللہ! مجھے اپنے صالح بندوں میں شامل فرما۔</li>
-<li>رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا<br><b>Urdu:</b> اے ہمارے رب! ہمارے دلوں کو ہدایت دینے کے بعد نہیں بھٹکنا۔</li>
+<li><b>Dua for Fasting:</b> اَللّٰهُمَّ إِنِّي لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ</li>
+<li><b>Dua for Iftar:</b> ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الأَجْرُ إن شاءَ الله</li>
+<li><b>Night Dua (Qiyam):</b> رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِنْ ذُرِّيَّتِي</li>
 </ul>
 </section>
 
+<!-- Roza Guide -->
 <section id="roza" class="card">
-<h2>Roza Guide</h2>
+<h2>Roza (Fasting) Guide</h2>
 <ul>
-<li>Sehri khana waqt par khayein</li>
-<li>Fasting start from Fajr till Maghrib</li>
-<li>Avoid bad habits during fast</li>
-<li>Make Duas and read Quran daily</li>
-<li>Give charity daily</li>
-<li>Be patient and control anger</li>
+<li>Sehri khana waqt par khayein (Fajr se pehle)</li>
+<li>Fasting ka intention niyyat karein</li>
+<li>Iftar waqt par khule haathon se karein, dates aur paani ke saath</li>
+<li>Zakat aur charity ka khayal rakhein</li>
+<li>Ramadan me Quran parhna aur duas ki aadat banayein</li>
 </ul>
 </section>
 
+<!-- Namaz Timings Section -->
 <section id="namaz" class="card">
-<h2>Namaz & City-Specific Timings</h2>
-<label>Select Your City:</label>
+<h2>Namaz Timings (City Wise)</h2>
+<label for="citySelect">Select your city:</label>
 <select id="citySelect" onchange="updateTimings()">
+<option value="">--Select City--</option>
 <option value="karachi">Karachi</option>
 <option value="lahore">Lahore</option>
 <option value="islamabad">Islamabad</option>
@@ -128,123 +216,137 @@ input[type="number"]{width:80px;}
 <option value="quetta">Quetta</option>
 </select>
 
-<table>
+<table id="timingTable">
 <tr><th>Namaz</th><th>Time</th></tr>
-<tr><td>Fajr</td><td id="fajrTime">05:00</td></tr>
-<tr><td>Dhuhr</td><td id="dhuhrTime">12:30</td></tr>
-<tr><td>Asr</td><td id="asrTime">16:00</td></tr>
-<tr><td>Maghrib</td><td id="maghribTime">18:45</td></tr>
-<tr><td>Isha</td><td id="ishaTime">20:15</td></tr>
+<tr><td>Fajr</td><td id="fajrTime">-</td></tr>
+<tr><td>Zuhr</td><td id="zuhrTime">-</td></tr>
+<tr><td>Asr</td><td id="asrTime">-</td></tr>
+<tr><td>Maghrib</td><td id="maghribTime">-</td></tr>
+<tr><td>Isha</td><td id="ishaTime">-</td></tr>
 </table>
+<script>
+function updateTimings(){
+let city=document.getElementById('citySelect').value;
+let timings={
+karachi:{fajr:'5:10 AM',zuhr:'12:30 PM',asr:'4:00 PM',maghrib:'6:45 PM',isha:'8:10 PM'},
+lahore:{fajr:'5:15 AM',zuhr:'12:40 PM',asr:'4:10 PM',maghrib:'6:50 PM',isha:'8:15 PM'},
+islamabad:{fajr:'5:05 AM',zuhr:'12:25 PM',asr:'3:55 PM',maghrib:'6:40 PM',isha:'8:05 PM'},
+peshawar:{fajr:'5:00 AM',zuhr:'12:20 PM',asr:'3:50 PM',maghrib:'6:35 PM',isha:'8:00 PM'},
+quetta:{fajr:'4:55 AM',zuhr:'12:15 PM',asr:'3:45 PM',maghrib:'6:30 PM',isha:'7:55 PM'}
+};
+if(timings[city]){
+document.getElementById('fajrTime').innerText=timings[city].fajr;
+document.getElementById('zuhrTime').innerText=timings[city].zuhr;
+document.getElementById('asrTime').innerText=timings[city].asr;
+document.getElementById('maghribTime').innerText=timings[city].maghrib;
+document.getElementById('ishaTime').innerText=timings[city].isha;
+}
+}
+</script>
 </section>
 
+<!-- Ramadan Calendar Section -->
 <section id="calendar" class="card">
-<h2>Ramadan Calendar</h2>
-<p>Select city to see Sehri & Iftar times for each day:</p>
-<table id="ramadanCalendar">
-<tr><th>Day</th><th>Sehri</th><th>Iftar</th></tr>
+<h2>Ramadan 2026 Calendar</h2>
+<table>
+<tr><th>Date</th><th>Sehri</th><th>Iftar</th></tr>
+<tr><td>1 Ramadan</td><td>4:50 AM</td><td>6:35 PM</td></tr>
+<tr><td>2 Ramadan</td><td>4:49 AM</td><td>6:36 PM</td></tr>
+<tr><td>3 Ramadan</td><td>4:48 AM</td><td>6:37 PM</td></tr>
+<tr><td>4 Ramadan</td><td>4:47 AM</td><td>6:38 PM</td></tr>
+<!-- Add full month dynamically if needed -->
 </table>
 </section>
 
+<!-- Zakat Calculator -->
 <section id="zakat" class="card">
 <h2>Zakat Calculator</h2>
-<p>Enter your assets:</p>
-<label>Cash/Savings:</label> <input type="number" id="cash" value="0"><br>
-<label>Gold/Silver value:</label> <input type="number" id="gold" value="0"><br>
-<button onclick="calculateZakat()">Calculate Zakat</button>
+<label for="amount">Enter Amount (PKR):</label>
+<input type="number" id="amount" placeholder="e.g. 50000">
+<button onclick="calculateZakat()">Calculate Zakat (2.5%)</button>
 <p id="zakatResult"></p>
+<script>
+function calculateZakat(){
+let amt=document.getElementById('amount').value;
+if(amt>0){
+let zakat=(amt*0.025).toFixed(2);
+document.getElementById('zakatResult').innerText="Zakat Payable: "+zakat+" PKR";
+}else{
+document.getElementById('zakatResult').innerText="Enter valid amount";
+}
+}
+</script>
 </section>
 
+<!-- Tasbeeh Counter -->
 <section id="tasbeeh" class="card">
 <h2>Tasbeeh Counter</h2>
-<button onclick="tasbeehAdd()">+1</button>
-<button onclick="tasbeehReset()">Reset</button>
-<p>Count: <span id="tasbeehCount">0</span></p>
+<p>Click button after each Tasbeeh:</p>
+<button onclick="tasbeehCount()">Tasbeeh +1</button> <span id="tasbeehValue">0</span>
+<script>
+let count=0;
+function tasbeehCount(){count++;document.getElementById('tasbeehValue').innerText=count;}
+</script>
 </section>
 
+<!-- Qibla Finder -->
 <section id="qibla" class="card">
-<h2>Qibla Guide</h2>
-<p>Use a compass or online Qibla locator to face Kaaba during prayers.</p>
+<h2>Qibla Direction</h2>
+<p>Use your device compass to find Qibla direction (Kaaba, Mecca).</p>
+<button onclick="alert('Face towards Kaaba in Mecca, Saudi Arabia')">Show Qibla Direction</button>
 </section>
 
+<!-- Recipes -->
 <section id="recipes" class="card">
-<h2>Iftar & Sehri Recipes</h2>
+<h2>Ramadan Recipes</h2>
 <ul>
-<li>Dates & water for Iftar</li>
-<li>Light soup and salad</li>
-<li>Oats, eggs, or fruits for Sehri</li>
+<li>Dates & Milk (Iftar starter)</li>
+<li>Fruit Chaat</li>
+<li>Chicken Biryani / Pulao</li>
+<li>Vegetable Soup</li>
+<li>Sweets: Sheer Khurma / Halwa</li>
 </ul>
 </section>
 
+<!-- Goals Tracker -->
 <section id="goals" class="card">
-<h2>Ramadan Goals Tracker</h2>
-<p>Track daily Quran reading, prayers, Duas, and charity.</p>
+<h2>Ramadan Goals</h2>
+<ul>
+<li>Read Quran daily</li>
+<li>Pray all 5 Namaz on time</li>
+<li>Give charity / Zakat</li>
+<li>Fast sincerely</li>
+<li>Perform extra prayers (Taraweeh / Qiyam)</li>
+<li>Increase good deeds and kindness</li>
+</ul>
 </section>
 
+<!-- Quotes / Hadiths -->
 <section id="quotes" class="card">
 <h2>Ramadan Quotes / Hadiths</h2>
 <ul>
-<li>"Fasting is a shield." – Hadith</li>
-<li>"He who gives iftar to a fasting person will earn reward..." – Hadith</li>
+<li>"Whoever fasts Ramadan out of faith and seeking reward, all previous sins are forgiven." – Prophet Muhammad ﷺ</li>
+<li>"The month of Ramadan is the one in which the Quran was revealed." – Quran 2:185</li>
+<li>"Feed the fasting person, and your sins will be forgiven." – Hadith</li>
 </ul>
 </section>
 
+<!-- Checklist -->
 <section id="checklist" class="card">
-<h2>Ramadan Checklist</h2>
+<h2>Daily Ramadan Checklist</h2>
 <ul>
-<li>Fast completed</li>
-<li>All 5 prayers offered</li>
-<li>Quran reading done</li>
-<li>Charity given</li>
-<li>Good deeds performed</li>
+<li>Sehri / Niyyat</li>
+<li>Fajr Namaz</li>
+<li>Quran Recitation</li>
+<li>Zuhr, Asr, Maghrib, Isha Namaz</li>
+<li>Iftar with Dates & Water</li>
+<li>Dua / Tasbeeh</li>
+<li>Taraweeh (Night Prayer)</li>
+<li>Charity / Zakat</li>
+<li>Good Deeds / Kindness</li>
+<li>Sleep & Rest for health</li>
 </ul>
 </section>
-
-<script>
-// Tasbeeh
-let count=0;
-function tasbeehAdd(){count++;document.getElementById('tasbeehCount').innerText=count;}
-function tasbeehReset(){count=0;document.getElementById('tasbeehCount').innerText=count;}
-
-// Zakat
-function calculateZakat(){
-  let cash=parseFloat(document.getElementById('cash').value)||0;
-  let gold=parseFloat(document.getElementById('gold').value)||0;
-  let zakat=(cash+gold)*0.025;
-  document.getElementById('zakatResult').innerText="Zakat due: "+zakat.toFixed(2)+" currency units";
-}
-
-// City-based Namaz & Iftar/Sehri
-const timings = {
-  karachi:{fajr:"05:10",dhuhr:"12:40",asr:"16:05",maghrib:"18:50",isha:"20:20",sehri:"04:50",iftar:"18:50"},
-  lahore:{fajr:"04:50",dhuhr:"12:20",asr:"15:50",maghrib:"18:35",isha:"20:05",sehri:"04:40",iftar:"18:35"},
-  islamabad:{fajr:"04:45",dhuhr:"12:25",asr:"16:00",maghrib:"18:40",isha:"20:10",sehri:"04:35",iftar:"18:40"},
-  peshawar:{fajr:"04:40",dhuhr:"12:15",asr:"15:55",maghrib:"18:30",isha:"20:00",sehri:"04:30",iftar:"18:30"},
-  quetta:{fajr:"04:55",dhuhr:"12:35",asr:"16:10",maghrib:"18:55",isha:"20:25",sehri:"04:45",iftar:"18:55"}
-};
-
-function updateTimings(){
-  let city=document.getElementById('citySelect').value;
-  document.getElementById('fajrTime').innerText=timings[city].fajr;
-  document.getElementById('dhuhrTime').innerText=timings[city].dhuhr;
-  document.getElementById('asrTime').innerText=timings[city].asr;
-  document.getElementById('maghribTime').innerText=timings[city].maghrib;
-  document.getElementById('ishaTime').innerText=timings[city].isha;
-
-  // Populate Calendar
-  let calendar=document.getElementById('ramadanCalendar');
-  calendar.innerHTML="<tr><th>Day</th><th>Sehri</th><th>Iftar</th></tr>";
-  for(let i=1;i<=30;i++){
-    let row=document.createElement('tr');
-    let day=document.createElement('td'); day.innerText=i;
-    let sehri=document.createElement('td'); sehri.innerText=timings[city].sehri;
-    let iftar=document.createElement('td'); iftar.innerText=timings[city].iftar;
-    row.appendChild(day); row.appendChild(sehri); row.appendChild(iftar);
-    calendar.appendChild(row);
-  }
-}
-window.onload=updateTimings;
-</script>
 
 </body>
 </html>
