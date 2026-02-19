@@ -220,130 +220,132 @@ input[type="number"]{width:80px;}
 <b>Urdu:</b> جب اللہ کی مدد اور فتح آ جائے، اور تم دیکھو لوگ اللہ کے دین میں گروہوں میں داخل ہو رہے ہیں، تو اپنے رب کے حمد کے ساتھ تسبیح کرو اور اس سے معافی مانگو۔ بے شک وہ بڑا توبہ قبول کرنے والا ہے۔<br>
 <b>English:</b> When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.
 </div>
-
-<!-- PART 1: SURAH CONTINUE + DUAS + ROZA GUIDE + NAMAZ TIMINGS + CALENDAR -->
-
-<!-- Surah 10: An-Nasr (Complete) -->
-<p><b data-en="10. Surah An-Nasr" data-ur="10. سورۃ النصر">10. Surah An-Nasr</b></p>
+<!-- SURAH 10: An-Nasr -->
+<section id="surah10" class="card gradient-card">
+<h2 data-en="10. Surah An-Nasr" data-ur="10. سورۃ النصر">10. Surah An-Nasr</h2>
 <div class="arabic">
 إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ<br>
 وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا<br>
 فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا
 </div>
 <div class="translation">
-<b>Urdu:</b> جب اللہ کی مدد اور فتح آئے، اور تم دیکھو لوگ اللہ کے دین میں جماعتوں کی صورت میں داخل ہو رہے ہیں، تو اپنے رب کی حمد کے ساتھ تسبیح کرو اور اس سے معافی مانگو۔ بے شک وہ بہت توبہ قبول کرنے والا ہے۔<br>
-<b>English:</b> When the victory of Allah has come and the conquest, and you see the people entering Allah’s religion in crowds, then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.
+<b>Urdu:</b> جب اللہ کی مدد اور فتح آ جائے اور تم دیکھو لوگ بڑی تعداد میں دین اللہ میں داخل ہو رہے ہیں، تو اپنے رب کی حمد کے ساتھ تسبیح کرو اور اس سے مغفرت طلب کرو، بے شک وہ بہت توبہ قبول کرنے والا ہے۔<br>
+<b>English:</b> When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.
 </div>
-<!-- SURAH 11-114 SECTION START -->
-<section id="surahs-11plus" class="card gradient-card">
-<h2 data-en="Surahs 11-114 with Translation" data-ur="سورۃ 11-114 ترجمے کے ساتھ">Surahs 11-114 with Translation</h2>
-
-<!-- Example Surah 11: Hud -->
-<p><b data-en="11. Surah Hud" data-ur="11. سورۃ ہود">11. Surah Hud</b></p>
-<div class="arabic">
-الر تِلْكَ آيَاتُ الْكِتَابِ وَمَا أُنزِلَ إِلَيْكَ مِن رَّبِّكَ الْحَقُّ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يُؤْمِنُونَ
-</div>
-<div class="translation">
-<b>Urdu:</b> یہ کتاب کی آیات ہیں اور جو کچھ تمہارے رب کی طرف سے نازل ہوا ہے وہ حق ہے، لیکن زیادہ تر لوگ ایمان نہیں لاتے۔<br>
-<b>English:</b> These are the verses of the Book and what has been revealed to you from your Lord is the truth, but most of the people do not believe.
-</div>
-
-<!-- Surah 12: Yusuf -->
-<p><b data-en="12. Surah Yusuf" data-ur="12. سورۃ یوسف">12. Surah Yusuf</b></p>
-<div class="arabic">
-الر تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ
-</div>
-<div class="translation">
-<b>Urdu:</b> یہ کتاب کی واضح آیات ہیں۔<br>
-<b>English:</b> These are the clear verses of the Book.
-</div>
-
-<!-- Add more Surahs 13-114 here with same format -->
-<!-- Modern card-style, interactive if needed -->
-
 </section>
 
-<!-- DAILY DUAS -->
+<!-- DUAS -->
 <section id="dua" class="card">
-<h2 data-en="Daily Duas" data-ur="روزانہ دعائیں">Daily Duas</h2>
+<h2 data-en="Important Duas" data-ur="اہم دعائیں">Important Duas</h2>
 <ul>
-<li><b data-en="Morning Dua" data-ur="صبح کی دعا">Morning Dua</b>: <span data-en="Allahumma bika asbahna..." data-ur="اللهم بك أصبحنا...">اللهم بك أصبحنا... (Urdu/EN translation)</span></li>
-<li><b data-en="Evening Dua" data-ur="شام کی دعا">Evening Dua</b>: <span data-en="Allahumma bika amsayna..." data-ur="اللهم بك أمسينا...">اللهم بك أمسينا... (Urdu/EN translation)</span></li>
-<li><b data-en="Before Eating" data-ur="کھانے سے پہلے">Before Eating</b>: <span data-en="Bismillah..." data-ur="بسم الله...">بسم الله... (Urdu/EN translation)</span></li>
+<li data-en="Dua for Breaking Fast" data-ur="روزہ کھولنے کی دعا">
+<b>Arabic:</b> اللّهُمَّ إِنِّي لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ<br>
+<b>Urdu:</b> اے اللہ! میں نے تیرے لیے روزہ رکھا، تجھ پر ایمان لایا، تجھ پر توکل کیا اور تیرے رزق سے افطار کیا۔<br>
+<b>English:</b> O Allah! I fasted for You and I believe in You and I put my trust in You and with Your sustenance I break my fast.
+</li>
+<li data-en="Morning Dua" data-ur="صبح کی دعا">
+<b>Arabic:</b> اللّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا<br>
+<b>Urdu:</b> اے اللہ! تیرے ساتھ ہم صبح میں داخل ہوئے اور تیرے ساتھ شام کو داخل ہوئے۔<br>
+<b>English:</b> O Allah! With Your help we have reached the morning and with Your help we have reached the evening.
+</li>
+<li data-en="Night Dua" data-ur="رات کی دعا">
+<b>Arabic:</b> بِاسْمِكَ اللّهُمَّ أَمُوتُ وَأَحْيَا<br>
+<b>Urdu:</b> اللہ کے نام سے میں مرتا اور جیتا ہوں۔<br>
+<b>English:</b> In Your name, O Allah, I die and I live.
+</li>
 </ul>
 </section>
 
 <!-- ROZA GUIDE -->
 <section id="roza" class="card">
-<h2 data-en="Roza Guide" data-ur="روزہ گائیڈ">Roza Guide</h2>
-<p data-en="Tips for fasting, Sehri & Iftar timings." data-ur="روزہ رکھنے کے نکات، سحری اور افطار کے اوقات۔">
-Sehri & Iftar timings, health tips, do’s and don’ts during fasting.
-</p>
+<h2 data-en="Roza (Fasting) Guide" data-ur="روزہ کی ہدایات">Roza (Fasting) Guide</h2>
+<ul>
+<li data-en="Intention" data-ur="نیت">Niyyah (make intention for fast)</li>
+<li data-en="Suhoor" data-ur="سحری">Take Suhoor before Fajr</li>
+<li data-en="Iftar" data-ur="افطار">Break fast immediately after Maghrib</li>
+<li data-en="Supplication" data-ur="دعائیں">Recite Dua before Iftar</li>
+<li data-en="Exemptions" data-ur="استثناء">Children, sick, and travelers can skip fasting</li>
+</ul>
 </section>
 
 <!-- NAMAZ TIMINGS -->
 <section id="namaz" class="card">
 <h2 data-en="Namaz Timings" data-ur="نماز کے اوقات">Namaz Timings</h2>
+<p data-en="All cities timings are approximate" data-ur="تمام شہروں کے اوقات تقریباً ہیں">All cities timings are approximate</p>
 <table>
 <tr><th data-en="City" data-ur="شہر">City</th><th data-en="Fajr" data-ur="فجر">Fajr</th><th data-en="Dhuhr" data-ur="ظہر">Dhuhr</th><th data-en="Asr" data-ur="عصر">Asr</th><th data-en="Maghrib" data-ur="مغرب">Maghrib</th><th data-en="Isha" data-ur="عشاء">Isha</th></tr>
-<tr><td>Karachi</td><td>5:10</td><td>12:15</td><td>3:45</td><td>6:50</td><td>8:10</td></tr>
-<tr><td>Lahore</td><td>5:20</td><td>12:30</td><td>4:00</td><td>7:05</td><td>8:20</td></tr>
-<tr><td>Islamabad</td><td>5:00</td><td>12:10</td><td>3:40</td><td>6:45</td><td>8:05</td></tr>
+<tr><td>Karachi</td><td>5:10 AM</td><td>12:30 PM</td><td>3:45 PM</td><td>6:50 PM</td><td>8:10 PM</td></tr>
+<tr><td>Lahore</td><td>5:20 AM</td><td>12:35 PM</td><td>3:50 PM</td><td>7:00 PM</td><td>8:20 PM</td></tr>
+<tr><td>Islamabad</td><td>5:15 AM</td><td>12:32 PM</td><td>3:47 PM</td><td>6:55 PM</td><td>8:15 PM</td></tr>
+<tr><td>Multan</td><td>5:18 AM</td><td>12:34 PM</td><td>3:48 PM</td><td>6:58 PM</td><td>8:18 PM</td></tr>
 </table>
 </section>
 
-<!-- TARAWEEH GUIDE -->
+<!-- TARAWEH -->
 <section id="taraweeh" class="card">
-<h2 data-en="Taraweeh Guide" data-ur="ترواہی گائیڈ">Taraweeh Guide</h2>
-<p data-en="Recommended Surah & Rakats." data-ur="سورۃ اور رکعت کی سفارش کی گئی۔">
-- 8 or 20 Rakats guidance<br>
-- Suggested Surahs for recitation each night
-</p>
+<h2 data-en="Taraweeh Guide" data-ur="ترواہی کی ہدایات">Taraweeh Guide</h2>
+<p>Pray 8 or 20 rakats according to your capacity. Recite long Surahs in early nights, shorter ones later.</p>
 </section>
 
-<!-- ZAKAT CALCULATOR -->
+<!-- ZAKAT -->
 <section id="zakat" class="card">
-<h2 data-en="Zakat Calculator" data-ur="زکوة کیلکولیٹر">Zakat Calculator</h2>
-<label data-en="Enter Amount" data-ur="رقم درج کریں">Amount: </label>
-<input type="number" id="zakatAmount" placeholder="0">
-<button onclick="calculateZakat()">Calculate Zakat</button>
+<h2 data-en="Zakat Calculation" data-ur="زکوة کا حساب">Zakat Calculation</h2>
+<p>Pay 2.5% of your savings yearly if it exceeds Nisab.</p>
+<input type="number" id="zakatAmount" placeholder="Enter savings">
+<button onclick="calcZakat()">Calculate Zakat</button>
 <p id="zakatResult"></p>
+</section>
+
 <script>
-function calculateZakat(){
-  let amt = document.getElementById('zakatAmount').value;
-  let zakat = amt * 0.025;
-  document.getElementById('zakatResult').innerText = 'Zakat: ' + zakat;
+function calcZakat(){
+  let amount=document.getElementById('zakatAmount').value;
+  if(amount && !isNaN(amount)){
+    document.getElementById('zakatResult').innerText="Zakat: "+(amount*0.025).toFixed(2);
+  } else {document.getElementById('zakatResult').innerText="Enter valid number";}
 }
 </script>
-</section>
 
-<!-- TASBEEH COUNTER -->
+<!-- TASBEEH -->
 <section id="tasbeeh" class="card">
-<h2 data-en="Tasbeeh Counter" data-ur="تسبیح کاؤنٹر">Tasbeeh Counter</h2>
-<p><span id="tasbeehCount">0</span></p>
-<button onclick="incrementTasbeeh()">Add</button>
+<h2 data-en="Tasbeeh" data-ur="تسبیح">Tasbeeh</h2>
+<p>Count your Tasbeeh using below buttons:</p>
+<button onclick="incTasbeeh()">+1</button>
 <button onclick="resetTasbeeh()">Reset</button>
+<p id="tasbeehCount">0</p>
 <script>
-let count = 0;
-function incrementTasbeeh(){count++;document.getElementById('tasbeehCount').innerText=count;}
+let count=0;
+function incTasbeeh(){count++;document.getElementById('tasbeehCount').innerText=count;}
 function resetTasbeeh(){count=0;document.getElementById('tasbeehCount').innerText=count;}
 </script>
 </section>
 
-<!-- QIBLA COMPASS -->
+<!-- QIBLA -->
 <section id="qibla" class="card">
 <h2 data-en="Qibla Direction" data-ur="قبلہ کی سمت">Qibla Direction</h2>
-<p>Use device compass to find Qibla direction.</p>
+<p>Face towards the Kaaba in Mecca during prayers. Use compass or app for exact direction.</p>
 </section>
 
 <!-- RECIPES -->
 <section id="recipes" class="card">
-<h2 data-en="Ramadan Recipes" data-ur="رمضان کے پکوان">Ramadan Recipes</h2>
+<h2 data-en="Iftar & Sehri Recipes" data-ur="افطار اور سحری کے پکوان">Iftar & Sehri Recipes</h2>
 <ul>
-<li>Sehri Smoothies</li>
-<li>Iftar Dates & Fruit Platters</li>
-<li>Healthy Soups</li>
-<li>Traditional Ramadan Desserts</li>
+<li>Dates & Water to break fast</li>
+<li>Fruits & Smoothies</li>
+<li>Chicken or Lentil Dishes</li>
+<li>Light Desserts</li>
+<li>Hydrating Drinks</li>
+</ul>
+</section>
+
+<!-- QUOTES / AHADEES -->
+<section id="quotes" class="card">
+<h2 data-en="Quotes & Ahadees" data-ur="اقوال و احادیث">Quotes & Ahadees</h2>
+<ul>
+<li>"The best among you are those who learn the Quran and teach it." – Prophet Muhammad ﷺ</li>
+<li>"Whoever fasts during Ramadan with faith and seeking reward, his past sins are forgiven." – Sahih Bukhari</li>
+<li>"Allah does not burden a soul beyond that it can bear." – Quran 2:286</li>
+<li>"Seek knowledge from the cradle to the grave." – Hadith</li>
+<li>"Pray as if you see Allah; if you do not see Him, He sees you." – Hadith</li>
 </ul>
 </section>
 
@@ -351,21 +353,11 @@ function resetTasbeeh(){count=0;document.getElementById('tasbeehCount').innerTex
 <section id="goals" class="card">
 <h2 data-en="Ramadan Goals" data-ur="رمضان کے مقاصد">Ramadan Goals</h2>
 <ul>
-<li>Complete Quran Recitation</li>
-<li>Daily Prayer on Time</li>
-<li>Charity & Helping Others</li>
-<li>Personal Reflection & Self-Improvement</li>
-</ul>
-</section>
-
-<!-- QUOTES & AHADITH -->
-<section id="quotes" class="card">
-<h2 data-en="Quotes & Ahadees" data-ur="اقتباسات و احادیث">Quotes & Ahadees</h2>
-<ul>
-<li>“Allah does not burden a soul beyond that it can bear.” [Surah Baqarah 2:286]</li>
-<li>“The best of people are those that bring most benefit to the rest of mankind.” [Hadith]</li>
-<li>“Ramadan is a month whose beginning is mercy, middle is forgiveness, and end is freedom from fire.” [Hadith]</li>
-<li>“He who fasts during Ramadan with faith and seeking reward, his past sins will be forgiven.” [Hadith]</li>
+<li>Read at least 1 Juz per day</li>
+<li>Perform extra prayers (Nafl, Taraweeh)</li>
+<li>Give charity daily</li>
+<li>Recite daily duas & dhikr</li>
+<li>Self-reflection & improve character</li>
 </ul>
 </section>
 
@@ -373,24 +365,29 @@ function resetTasbeeh(){count=0;document.getElementById('tasbeehCount').innerTex
 <section id="checklist" class="card">
 <h2 data-en="Ramadan Checklist" data-ur="رمضان چیک لسٹ">Ramadan Checklist</h2>
 <ul>
-<li>Daily Quran Reading</li>
-<li>Pray 5 Times</li>
-<li>Sehri & Iftar on Time</li>
-<li>Charity / Zakat</li>
-<li>Tasbeeh / Dhikr</li>
-<li>Taraweeh Attendance</li>
-<li>Reflect & Journal</li>
+<li>Suhoor & Iftar prepared</li>
+<li>Prayer mat & Quran ready</li>
+<li>Tasbeeh counter ready</li>
+<li>Charity contributions planned</li>
+<li>Ramadan goals listed</li>
 </ul>
 </section>
 
+<!-- LANGUAGE & DARK MODE TOGGLE -->
+<div id="futures" class="card" style="position:fixed;bottom:10px;right:10px;z-index:1001;">
+<button onclick="toggleDark()" data-en="Dark/Light" data-ur="ڈارک/لائٹ">Dark/Light</button>
+<button onclick="toggleLang()" data-en="EN/UR" data-ur="انگریزی/اردو">EN/UR</button>
+</div>
+
 <script>
-// Dark/Light toggle
-function toggleDark(){document.body.classList.toggle('dark-mode');}
-// EN/UR toggle
+function toggleDark(){
+  document.body.classList.toggle('dark-mode');
+}
 function toggleLang(){
-  let lang = document.body.getAttribute('data-lang')==='ur'?'en':'ur';
-  document.body.setAttribute('data-lang',lang);
+  let lang=document.body.getAttribute('data-lang')||'en';
+  let newLang=lang==='en'?'ur':'en';
+  document.body.setAttribute('data-lang',newLang);
   document.querySelectorAll('[data-en]').forEach(el=>{
-    el.innerText = (lang==='en')?el.getAttribute('data-en'):el.getAttribute('data-ur');
+    el.innerText=newLang==='en'?el.getAttribute('data-en'):el.getAttribute('data-ur');
   });
 }
